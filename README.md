@@ -45,9 +45,25 @@ This application bypasses traditional structural limitations by using native com
 
 ```text
 src/
- ├── assets/        # Static graphic assets and telemetry files
- ├── components/    # Reusable structural components (Sidebar, Navbar, Chatbot)
- ├── pages/         # High-fidelity dashboard views and execution platforms
- ├── utils/         # Static data modules and mock engine arrays
- ├── App.jsx        # Routing matrix and layout wrapper logic
- └── main.jsx       # Production mounting core entrypoint
+ ├── assets/                # Static graphic assets and telemetry files
+ ├── components/            # Reusable core interface modules
+ │    ├── Chatbot.jsx       # AI Career Assistant Floating Chatbot
+ │    ├── Navbar.jsx        # Top global navigation framework
+ │    └── Sidebar.jsx       # System operations sidebar navigation
+ ├── pages/                 # High-fidelity dashboard views & execution platforms
+ │    ├── AdminDashboard.jsx # Elevated privilege terminal diagnostics
+ │    ├── AuthPage.jsx      # Session credential initialization gateway
+ │    ├── Dashboard.jsx     # Core telemetry command dashboard
+ │    ├── Internships.jsx   # Targeted target openings matching matrix
+ │    ├── LandingPage.jsx   # Premium SaaS conversion interface
+ │    ├── MockInterview.jsx # LLM-driven testing terminal sandbox
+ │    ├── Profile.jsx       # Identity configuration parameters
+ │    ├── ProgressTracker.jsx# Performance multiplier & badge tracker
+ │    ├── ResumeAnalyzer.jsx# Document vector keyword parsing layer
+ │    ├── RoadmapGenerator.jsx# Chronological prerequisite pathing tree
+ │    └── SkillGap.jsx      # Dynamic polar structural capability contrast
+ ├── utils/                 # Static data infrastructure
+ │    └── sampleData.js     # Mock engine arrays & metric baselines
+ ├── App.css                # Component style overrides
+ ├── App.jsx                # Routing matrix & structural layout core
+ └── main.jsx               # Production DOM mounting application entrypoint
